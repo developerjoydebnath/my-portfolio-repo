@@ -97,6 +97,20 @@ body{
     float: left;
     width: 60%;
 }
+.img-div .extra-div .bio a{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(93, 18, 214), rgb(60, 2, 126));
+    padding: 30px 50px;
+    font-size: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+.img-div .extra-div .bio a:hover{
+    color: rgb(238, 29, 203);
+}
 .img-div .extra-div .bio .blur-div{
     border: 1px solid rgba(255, 255, 255, 0);
     margin: 100px;
@@ -149,7 +163,7 @@ body{
     width: 400px;
     height: 789px;
     /* border: 1px solid black; */
-    border-radius: 8px;
+    border-radius: 5px;
     box-shadow: 0 0 5px 10px rgba(209, 209, 209, 0.301), 0 0 10px 15px rgba(200, 199, 199, 0.294), 0 0 15px 20px rgba(207, 206, 206, 0.294);
     margin: 50px 0 50px 59px;
     float: left;
