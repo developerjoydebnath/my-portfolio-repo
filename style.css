@@ -153,6 +153,7 @@ body{
 .mid{
     width: 1903px;
     height: 920px;
+    margin-top: 40px;
     /* border: 1px solid black; */
 }
 .mid .mid-extra{}
@@ -223,7 +224,55 @@ body{
     margin: 0 20px 20px;
 }
 
-
+/* team member div start  */
+.my-team .additional{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    border-bottom: 8px solid;
+    border-image: linear-gradient(to right, rgb(91, 45, 165), rgb(160, 5, 199));
+    display: inline-block;
+    border-image-slice: 1;
+}
+.my-team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.team{
+    width: 1903px;
+    height: 520px;
+    /* border: 1px solid #000; */
+    margin: 30px 0;
+}
+.team .extra-team{}
+.team .extra-team .member{
+    width: 600px;
+    height: 480px;
+    float: left;
+    /* border: 1px solid #000; */
+    text-align: center;
+    margin: 20px 0 20px 25px;
+}
+.team .extra-team .member .person{}
+.team .extra-team .member .person img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.team .extra-team .member .about{}
+.team .extra-team .member .about h1{
+    font-size: 40px;
+    margin: 20px 0;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    display: inline-block;
+}
+.team .extra-team .member .about h4{
+    font-size: 30px;
+    margin: 20px;
+}
 
 
 
